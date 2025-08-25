@@ -1,3 +1,6 @@
 {
   "installCommand": "pnpm install --no-frozen-lockfile"
 }
+git add vercel.json
+git commit -m "fix: disable frozen lockfile on vercel"
+git push origin main
